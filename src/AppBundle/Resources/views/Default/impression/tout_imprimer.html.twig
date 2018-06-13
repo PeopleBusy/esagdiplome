@@ -1,0 +1,209 @@
+{% extends "::base.html.twig" %}
+
+
+{% block title %} Impression {% endblock %}
+
+
+{% block body %}
+
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+        <h1>
+            <small></small>
+        </h1>
+        <ol class="breadcrumb">
+            <li><a href="#"><i class="fa fa-eye"></i> Impression</a></li>
+            <li class="active">Aperçu</li>
+        </ol>
+
+        {% if success is defined  %}
+
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-6">
+                    <div class="box box-success box-solid" style="margin-bottom: 0px;">
+                        <div class="box-header with-border">
+                            <h3 class="box-title">Succès</h3>
+
+                            <div class="box-tools pull-right">
+                                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                            </div>
+                            <!-- /.box-tools -->
+                        </div>
+                        <!-- /.box-header -->
+                        <div class="box-body">
+                            {{ success }}
+                        </div>
+                        <!-- /.box-body -->
+                    </div>
+                </div>
+            </div>
+
+        {% endif %}
+
+    </section>
+
+
+    <section class="content">
+
+
+        <div class="box">
+            <div class="box-header with-border">
+                <h3 class="box-title">
+                    <i class="fa fa-eye"></i>
+                   {{ libelle }}
+
+                </h3>
+
+                <div class="box-tools pull-right">
+                    <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse">
+                        <i class="fa fa-minus"></i></button>
+                    <button type="button" class="btn btn-box-tool" data-widget="remove" data-toggle="tooltip" title="Remove">
+                        <i class="fa fa-times"></i></button>
+                </div>
+            </div>
+            <div class="box-body" id="box-container">
+
+                {% if demandes is empty  %}
+                    <h3 style="text-align: center;">Aucun enregistrement trouvé</h3>
+                {% else %}
+
+                    <div class="col-md-12">
+                        <button type="button" class="btn btn-success avoid-this" id="btn_print">
+                            <i class="fa fa-print"></i>
+                            Imprimer
+                        </button>
+                    </div>
+
+                    <div id="html-2-pdfwrapper" class="col-md-12">
+
+                        {% if id == 0 %}
+                            {% for i in demandes %}
+
+                                <div class="impression" style="font-size: 15px;padding: 110px 70px 10px 85px;">
+                                    {% if i.typeDemande == 'Duplicata' %}
+                                        <p class="text-red pull-right" style="text-transform: uppercase;font-size: 35px !important;margin-right: 30px !important;margin-top: 15px !important;font-family: 'Alfa Slab One'">
+                                            {{ i.typeDemande }}</p>
+                                        <div style="margin-top: 190px;"></div>
+                                    {% else %}
+                                        <p class="text-white">{{ i.typeDemande }}</p>
+                                        <div style="margin-top: 170px;"></div>
+                                    {% endif %}
+
+                                    <p style="font-size: 12px !important;">délivre à</p>
+                                    <p class="demande" data-id="{{ i.id }}">
+                                        <span style="margin-right: 250px;">Mr /Mlle </span>
+                                        <span class="text-bold" style="font-size: 35px !important;font-family: 'Italianno';">{{ i.etudiant.nom }}&nbsp;&nbsp;{{ i.etudiant.prenom }}</span>
+                                    </p>
+                                    <p class="">
+                                        <span style="margin-right: 220px;">Né (e) le </span>
+                                        <span style="margin-right: 90px;font-size: 20px !important;" class="text-bold">{{ i.etudiant.dateExamen }} </span>
+                                        <span  style="margin-right: 90px;">à </span>
+                                        <span class="text-bold" style="font-size: 20px !important;">{{ i.etudiant.lieunaissance }} </span>
+                                    </p>
+                                    <p class="">
+                                        <span style="margin-right: 300px;">N° Matricule </span>
+                                        <span class="text-bold" style="font-size: 20px !important;">{{ i.etudiant.mention }} </span>
+                                    </p>
+                                    <p class="">
+                                        <span>Le </span><span class="text-bold" style="font-size: 20px !important;">DIPLÔME </span><span style="margin-right: 20px;">de LICENCE PROFESSIONNELLE EN </span>
+                                        <span class="text-bold">**** {{ i.etudiant.specialite }} ****</span>
+                                    </p>
+                                    <p class="">
+                                        <span style="margin-right: 200px;">Option: </span>
+                                        <span class="text-bold" style="font-size: 20px !important;">{{ i.etudiant.optionEtud }}</span>
+                                    </p>
+                                    <p style="font-size: 13px !important;">
+                                        <span>Avec tous les droits, honneurs et privilèges qui se rattachent à ce grade.</span>
+                                    </p>
+                                    <p style="font-size: 13px !important;">
+                                        <span>N° d'enregistrement </span>
+                                        <span class="text-bold">00092NASK/2016/LP/ESAG-NDE</span>
+                                    </p>
+                                    <p style="font-size: 13px !important; margin-left: 620px !important;">Fait à Lomé, le {{ current_date }}</p>
+                                    <p style="margin-top: 120px !important;">
+                                        <span style="margin-right: 280px;"> </span>
+                                        <span style="margin-right: 130px;font-size: 15px !important;text-decoration: underline;">
+                                        {{ directeurAcademique.valeur }}
+                                    </span>
+                                        <span  style="font-size: 15px !important;text-decoration: underline;margin-right: 0px !important;">{{ directeurGenerale.valeur }} </span>
+                                    </p>
+                                </div>
+
+
+                                <div style="page-break-after:always"></div>
+
+
+                            {% endfor %}
+
+                            {% else %}
+
+                                <div class="impression" style="font-size: 15px;padding: 110px 70px 10px 85px;">
+                                    {% if demandes.typeDemande == 'Duplicata' %}
+                                        <p class="text-red pull-right" style="text-transform: uppercase;font-size: 35px !important; margin-right: 30px !important;margin-top: 15px !important;font-family: 'Alfa Slab One'">
+                                            {{ demandes.typeDemande }}</p>
+                                        <div style="margin-top: 190px;"></div>
+                                    {% else %}
+                                        <p class="text-white" style='margin-top:50px; margin-bottom: 50px;'>{{ demandes.typeDemande }}</p>
+                                        <div style="margin-top: 170px;"></div>
+                                    {% endif %}
+
+                                    <p style="font-size: 12px !important;">délivre à</p>
+                                    <p class="demande" data-id="{{ demandes.id }}">
+                                        <span style="margin-right: 250px;">Mr /Mlle </span>
+                                        <span class="text-bold" style="font-size: 35px !important;font-family: 'Italianno';">
+                                        {{ demandes.etudiant.nom }}&nbsp;&nbsp;{{ demandes.etudiant.prenom }}</span>
+                                    </p>
+                                    <p class="">
+                                        <span style="margin-right: 220px;">Né (e) le </span>
+                                        <span style="margin-right: 90px;font-size: 20px !important;" class="text-bold">{{ demandes.etudiant.dateExamen }} </span>
+                                        <span  style="margin-right: 90px;">à </span>
+                                        <span class="text-bold" style="font-size: 20px !important;">{{ demandes.etudiant.lieunaissance }} </span>
+                                    </p>
+                                    <p class="">
+                                        <span style="margin-right: 300px;">N° Matricule </span>
+                                        <span class="text-bold" style="font-size: 20px !important;">{{ demandes.etudiant.mention }} </span>
+                                    </p>
+                                    <p class="">
+                                        <span>Le </span><span class="text-bold" style="font-size: 20px !important;">DIPLÔME </span><span style="margin-right: 20px;">de LICENCE PROFESSIONNELLE EN </span>
+                                        <span class="text-bold">**** {{ demandes.etudiant.specialite }} ****</span>
+                                    </p>
+                                    <p class="">
+                                        <span style="margin-right: 200px;">Option: </span>
+                                        <span class="text-bold" style="font-size: 20px !important;">{{ demandes.etudiant.optionEtud }}</span>
+                                    </p>
+                                    <p style="font-size: 13px !important;">
+                                        <span>Avec tous les droits, honneurs et privilèges qui se rattachent à ce grade.</span>
+                                    </p>
+                                    <p style="font-size: 13px !important;">
+                                        <span>N° d'enregistrement </span>
+                                        <span class="text-bold">00092NASK/2016/LP/ESAG-NDE</span>
+                                    </p>
+                                    <p style="font-size: 13px !important; margin-left: 620px !important;">Fait à Lomé, le {{ current_date }}</p>
+                                    <p style="margin-top: 110px !important;">
+                                        <span style="margin-right: 280px;"> </span>
+                                        <span style="margin-right: 130px;font-size: 15px !important;text-decoration: underline;">
+                                        {{ directeurAcademique.valeur }}
+                                    </span>
+                                        <span  style="font-size: 15px !important;text-decoration: underline;margin-right: 0px !important;">{{ directeurGenerale.valeur }} </span>
+                                    </p>
+                                </div>
+
+
+                        {% endif %}
+
+                    </div>
+
+                {% endif %}
+
+
+            </div>
+            <!-- /.box-body -->
+            <div class="box-footer">
+                {#Footer#}
+            </div>
+            <!-- /.box-footer-->
+        </div>
+    </section>
+
+{% endblock %}
