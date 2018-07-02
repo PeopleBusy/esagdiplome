@@ -22,47 +22,47 @@ class __TwigTemplate_cbf52c7d4e7dd202661467cf33ae729df998bab5b43bb6baf020b536c51
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_f440bac11c8869aa40685b38722aa111cff792a1544e4df76f3979eccac39fb2 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_f440bac11c8869aa40685b38722aa111cff792a1544e4df76f3979eccac39fb2->enter($__internal_f440bac11c8869aa40685b38722aa111cff792a1544e4df76f3979eccac39fb2_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "AppBundle:Default/impression:list_impression.html.twig"));
+        $__internal_ef74fa020ccdc44c2d2a2eac52f01e0b579a0c9c591610dacc4c6c6caf2efa44 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_ef74fa020ccdc44c2d2a2eac52f01e0b579a0c9c591610dacc4c6c6caf2efa44->enter($__internal_ef74fa020ccdc44c2d2a2eac52f01e0b579a0c9c591610dacc4c6c6caf2efa44_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "AppBundle:Default/impression:list_impression.html.twig"));
 
-        $__internal_d308c424412b35dd0ecf7c2fe5f8fc7d4e941cc2187d4877f4fa69c2a1a312fc = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_d308c424412b35dd0ecf7c2fe5f8fc7d4e941cc2187d4877f4fa69c2a1a312fc->enter($__internal_d308c424412b35dd0ecf7c2fe5f8fc7d4e941cc2187d4877f4fa69c2a1a312fc_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "AppBundle:Default/impression:list_impression.html.twig"));
+        $__internal_c23ee8c87a98b947deca721f357e97684a9d27e637fe4bc303a2507c9d3f07ca = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_c23ee8c87a98b947deca721f357e97684a9d27e637fe4bc303a2507c9d3f07ca->enter($__internal_c23ee8c87a98b947deca721f357e97684a9d27e637fe4bc303a2507c9d3f07ca_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "AppBundle:Default/impression:list_impression.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_f440bac11c8869aa40685b38722aa111cff792a1544e4df76f3979eccac39fb2->leave($__internal_f440bac11c8869aa40685b38722aa111cff792a1544e4df76f3979eccac39fb2_prof);
+        $__internal_ef74fa020ccdc44c2d2a2eac52f01e0b579a0c9c591610dacc4c6c6caf2efa44->leave($__internal_ef74fa020ccdc44c2d2a2eac52f01e0b579a0c9c591610dacc4c6c6caf2efa44_prof);
 
         
-        $__internal_d308c424412b35dd0ecf7c2fe5f8fc7d4e941cc2187d4877f4fa69c2a1a312fc->leave($__internal_d308c424412b35dd0ecf7c2fe5f8fc7d4e941cc2187d4877f4fa69c2a1a312fc_prof);
+        $__internal_c23ee8c87a98b947deca721f357e97684a9d27e637fe4bc303a2507c9d3f07ca->leave($__internal_c23ee8c87a98b947deca721f357e97684a9d27e637fe4bc303a2507c9d3f07ca_prof);
 
     }
 
     // line 4
     public function block_title($context, array $blocks = array())
     {
-        $__internal_da0b24c250ddcf9de9a0cbced5168154cfe6439089b4ffe257e0227d95680899 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_da0b24c250ddcf9de9a0cbced5168154cfe6439089b4ffe257e0227d95680899->enter($__internal_da0b24c250ddcf9de9a0cbced5168154cfe6439089b4ffe257e0227d95680899_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
+        $__internal_0a5986d5743230e804134077979895b604f411e92b359166764adf86fda6cce2 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_0a5986d5743230e804134077979895b604f411e92b359166764adf86fda6cce2->enter($__internal_0a5986d5743230e804134077979895b604f411e92b359166764adf86fda6cce2_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
 
-        $__internal_ffe7a56250354e5c47190a15e440f70b04b3503d81c207602a3f90e25358eefe = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_ffe7a56250354e5c47190a15e440f70b04b3503d81c207602a3f90e25358eefe->enter($__internal_ffe7a56250354e5c47190a15e440f70b04b3503d81c207602a3f90e25358eefe_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
+        $__internal_b40835615626170ed20afec8349f0f40fca71042e5be922b2341374c5b63c2df = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_b40835615626170ed20afec8349f0f40fca71042e5be922b2341374c5b63c2df->enter($__internal_b40835615626170ed20afec8349f0f40fca71042e5be922b2341374c5b63c2df_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
 
         echo " Impressions ";
         
-        $__internal_ffe7a56250354e5c47190a15e440f70b04b3503d81c207602a3f90e25358eefe->leave($__internal_ffe7a56250354e5c47190a15e440f70b04b3503d81c207602a3f90e25358eefe_prof);
+        $__internal_b40835615626170ed20afec8349f0f40fca71042e5be922b2341374c5b63c2df->leave($__internal_b40835615626170ed20afec8349f0f40fca71042e5be922b2341374c5b63c2df_prof);
 
         
-        $__internal_da0b24c250ddcf9de9a0cbced5168154cfe6439089b4ffe257e0227d95680899->leave($__internal_da0b24c250ddcf9de9a0cbced5168154cfe6439089b4ffe257e0227d95680899_prof);
+        $__internal_0a5986d5743230e804134077979895b604f411e92b359166764adf86fda6cce2->leave($__internal_0a5986d5743230e804134077979895b604f411e92b359166764adf86fda6cce2_prof);
 
     }
 
     // line 7
     public function block_body($context, array $blocks = array())
     {
-        $__internal_1651cae9c0e43ab501111828808159e493b849e2a8a3ad211cc1657b6782417a = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_1651cae9c0e43ab501111828808159e493b849e2a8a3ad211cc1657b6782417a->enter($__internal_1651cae9c0e43ab501111828808159e493b849e2a8a3ad211cc1657b6782417a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_091dc49b5bc4cfda6171ec9a919aa16468f4cffc7ff47a50538c1ac5155c5cab = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_091dc49b5bc4cfda6171ec9a919aa16468f4cffc7ff47a50538c1ac5155c5cab->enter($__internal_091dc49b5bc4cfda6171ec9a919aa16468f4cffc7ff47a50538c1ac5155c5cab_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-        $__internal_d1fec21ae05b3b311cd6b83ade99bf905ed272484795da9d9a546c22f4700139 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_d1fec21ae05b3b311cd6b83ade99bf905ed272484795da9d9a546c22f4700139->enter($__internal_d1fec21ae05b3b311cd6b83ade99bf905ed272484795da9d9a546c22f4700139_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_37afc4da89aa5eaeac099803be2fb7f51f08362184a49b0d7f19fafad8e4f066 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_37afc4da89aa5eaeac099803be2fb7f51f08362184a49b0d7f19fafad8e4f066->enter($__internal_37afc4da89aa5eaeac099803be2fb7f51f08362184a49b0d7f19fafad8e4f066_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
         // line 8
         echo "
@@ -187,6 +187,7 @@ class __TwigTemplate_cbf52c7d4e7dd202661467cf33ae729df998bab5b43bb6baf020b536c51
                                 <th>Lieu naiss.</th>
                                 <th>Diplôme</th>
                                 <th>Option</th>
+                                <th>Titre</th>
                                 <th>Type</th>
                                 <th>Enregistré par</th>
                                 <th>Date Enreg.</th>
@@ -196,61 +197,65 @@ class __TwigTemplate_cbf52c7d4e7dd202661467cf33ae729df998bab5b43bb6baf020b536c51
                             </thead>
                             <tbody>
                             ";
-            // line 119
+            // line 120
             $context['_parent'] = $context;
             $context['_seq'] = twig_ensure_traversable(($context["impressions"] ?? $this->getContext($context, "impressions")));
             foreach ($context['_seq'] as $context["_key"] => $context["i"]) {
-                // line 120
+                // line 121
                 echo "                                <tr class=\"\">
                                     <td class=\"hide\"><input type=\"checkbox\"/></td>
                                     <td class=\"hide\"><span class=\"id\">";
-                // line 122
+                // line 123
                 echo twig_escape_filter($this->env, $this->getAttribute($context["i"], "id", array()), "html", null, true);
                 echo "</span></td>
                                     <td><span class=\"badge bg-defaul matricule\">";
-                // line 123
+                // line 124
                 echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute($this->getAttribute($context["i"], "demande", array()), "etudiant", array()), "mention", array()), "html", null, true);
                 echo "</span></td>
                                     <td><span class=\"nom\">";
-                // line 124
+                // line 125
                 echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute($this->getAttribute($context["i"], "demande", array()), "etudiant", array()), "nom", array()), "html", null, true);
                 echo " ";
                 echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute($this->getAttribute($context["i"], "demande", array()), "etudiant", array()), "prenom", array()), "html", null, true);
                 echo "</span></td>
                                     <td><span class=\"datenaiss\">";
-                // line 125
+                // line 126
                 echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute($this->getAttribute($context["i"], "demande", array()), "etudiant", array()), "dateExamen", array()), "html", null, true);
                 echo "</span></td>
                                     <td><span class=\"lieunaiss\">";
-                // line 126
+                // line 127
                 echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute($this->getAttribute($context["i"], "demande", array()), "etudiant", array()), "lieunaissance", array()), "html", null, true);
                 echo "</span></td>
                                     <td><span class=\"diplome\">";
-                // line 127
+                // line 128
                 echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute($this->getAttribute($context["i"], "demande", array()), "etudiant", array()), "specialite", array()), "html", null, true);
                 echo "</span></td>
                                     <td><span class=\"option\">";
-                // line 128
+                // line 129
                 echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute($this->getAttribute($context["i"], "demande", array()), "etudiant", array()), "optionEtud", array()), "html", null, true);
                 echo "</span></td>
-                                    <td><span class=\"\">";
-                // line 129
-                echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute($context["i"], "demande", array()), "typeDemande", array()), "html", null, true);
-                echo "</span></td>
-                                    <td><span class=\"\">";
+                                    <td><span class=\"option\">";
                 // line 130
-                echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute($context["i"], "demande", array()), "enregistrePar", array()), "html", null, true);
+                echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute($this->getAttribute($context["i"], "demande", array()), "etudiant", array()), "genre", array()), "html", null, true);
                 echo "</span></td>
                                     <td><span class=\"\">";
                 // line 131
-                echo twig_escape_filter($this->env, twig_date_format_filter($this->env, $this->getAttribute($this->getAttribute($context["i"], "demande", array()), "dateEnregistrement", array()), "d/m/Y h:i:s"), "html", null, true);
+                echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute($context["i"], "demande", array()), "typeDemande", array()), "html", null, true);
                 echo "</span></td>
                                     <td><span class=\"\">";
                 // line 132
-                echo twig_escape_filter($this->env, $this->getAttribute($context["i"], "imprimePar", array()), "html", null, true);
+                echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute($context["i"], "demande", array()), "enregistrePar", array()), "html", null, true);
                 echo "</span></td>
                                     <td><span class=\"\">";
                 // line 133
+                echo twig_escape_filter($this->env, twig_date_format_filter($this->env, $this->getAttribute($this->getAttribute($context["i"], "demande", array()), "dateEnregistrement", array()), "d/m/Y h:i:s"), "html", null, true);
+                echo "</span></td>
+                                    <td><span class=\"\">";
+                // line 134
+                echo twig_escape_filter($this->env, $this->getAttribute($context["i"], "imprimePar", array()), "html", null, true);
+                echo "</span></td>
+                                    <td><span class=\"\">";
+                // line 135
                 echo twig_escape_filter($this->env, twig_date_format_filter($this->env, $this->getAttribute($context["i"], "dateImpression", array()), "d/m/Y h:i:s"), "html", null, true);
                 echo "</span></td>
                                 </tr>
@@ -259,7 +264,7 @@ class __TwigTemplate_cbf52c7d4e7dd202661467cf33ae729df998bab5b43bb6baf020b536c51
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['i'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-            // line 136
+            // line 138
             echo "
                             </tbody>
                         </table>
@@ -267,14 +272,14 @@ class __TwigTemplate_cbf52c7d4e7dd202661467cf33ae729df998bab5b43bb6baf020b536c51
 
                 ";
         }
-        // line 142
+        // line 144
         echo "
 
             </div>
             <!-- /.box-body -->
             <div class=\"box-footer\">
                 ";
-        // line 148
+        // line 150
         echo "            </div>
             <!-- /.box-footer-->
         </div>
@@ -282,10 +287,10 @@ class __TwigTemplate_cbf52c7d4e7dd202661467cf33ae729df998bab5b43bb6baf020b536c51
 
 ";
         
-        $__internal_d1fec21ae05b3b311cd6b83ade99bf905ed272484795da9d9a546c22f4700139->leave($__internal_d1fec21ae05b3b311cd6b83ade99bf905ed272484795da9d9a546c22f4700139_prof);
+        $__internal_37afc4da89aa5eaeac099803be2fb7f51f08362184a49b0d7f19fafad8e4f066->leave($__internal_37afc4da89aa5eaeac099803be2fb7f51f08362184a49b0d7f19fafad8e4f066_prof);
 
         
-        $__internal_1651cae9c0e43ab501111828808159e493b849e2a8a3ad211cc1657b6782417a->leave($__internal_1651cae9c0e43ab501111828808159e493b849e2a8a3ad211cc1657b6782417a_prof);
+        $__internal_091dc49b5bc4cfda6171ec9a919aa16468f4cffc7ff47a50538c1ac5155c5cab->leave($__internal_091dc49b5bc4cfda6171ec9a919aa16468f4cffc7ff47a50538c1ac5155c5cab_prof);
 
     }
 
@@ -301,7 +306,7 @@ class __TwigTemplate_cbf52c7d4e7dd202661467cf33ae729df998bab5b43bb6baf020b536c51
 
     public function getDebugInfo()
     {
-        return array (  278 => 148,  271 => 142,  263 => 136,  254 => 133,  250 => 132,  246 => 131,  242 => 130,  238 => 129,  234 => 128,  230 => 127,  226 => 126,  222 => 125,  216 => 124,  212 => 123,  208 => 122,  204 => 120,  200 => 119,  177 => 98,  173 => 96,  171 => 95,  153 => 80,  124 => 54,  111 => 43,  100 => 35,  83 => 20,  81 => 19,  68 => 8,  59 => 7,  41 => 4,  11 => 1,);
+        return array (  283 => 150,  276 => 144,  268 => 138,  259 => 135,  255 => 134,  251 => 133,  247 => 132,  243 => 131,  239 => 130,  235 => 129,  231 => 128,  227 => 127,  223 => 126,  217 => 125,  213 => 124,  209 => 123,  205 => 121,  201 => 120,  177 => 98,  173 => 96,  171 => 95,  153 => 80,  124 => 54,  111 => 43,  100 => 35,  83 => 20,  81 => 19,  68 => 8,  59 => 7,  41 => 4,  11 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -424,6 +429,7 @@ class __TwigTemplate_cbf52c7d4e7dd202661467cf33ae729df998bab5b43bb6baf020b536c51
                                 <th>Lieu naiss.</th>
                                 <th>Diplôme</th>
                                 <th>Option</th>
+                                <th>Titre</th>
                                 <th>Type</th>
                                 <th>Enregistré par</th>
                                 <th>Date Enreg.</th>
@@ -442,6 +448,7 @@ class __TwigTemplate_cbf52c7d4e7dd202661467cf33ae729df998bab5b43bb6baf020b536c51
                                     <td><span class=\"lieunaiss\">{{ i.demande.etudiant.lieunaissance }}</span></td>
                                     <td><span class=\"diplome\">{{ i.demande.etudiant.specialite }}</span></td>
                                     <td><span class=\"option\">{{ i.demande.etudiant.optionEtud }}</span></td>
+                                    <td><span class=\"option\">{{ i.demande.etudiant.genre }}</span></td>
                                     <td><span class=\"\">{{ i.demande.typeDemande }}</span></td>
                                     <td><span class=\"\">{{ i.demande.enregistrePar }}</span></td>
                                     <td><span class=\"\">{{ i.demande.dateEnregistrement|date('d/m/Y h:i:s') }}</span></td>
@@ -466,6 +473,6 @@ class __TwigTemplate_cbf52c7d4e7dd202661467cf33ae729df998bab5b43bb6baf020b536c51
         </div>
     </section>
 
-{% endblock %}", "AppBundle:Default/impression:list_impression.html.twig", "/Users/Rachid/Documents/Projet Client/ulimprime/src/AppBundle/Resources/views/Default/impression/list_impression.html.twig");
+{% endblock %}", "AppBundle:Default/impression:list_impression.html.twig", "/Users/Rachid/SymfonyProjects/esagdiplome/src/AppBundle/Resources/views/Default/impression/list_impression.html.twig");
     }
 }

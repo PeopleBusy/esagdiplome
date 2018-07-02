@@ -38,7 +38,7 @@ class Etudiant
     /**
      * @var string
      *
-     * @ORM\Column(name="genre", type="string", length=10)
+     * @ORM\Column(name="genre", type="string", length=100)
      */
     private $genre;
 

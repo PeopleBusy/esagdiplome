@@ -15,11 +15,11 @@ class __TwigTemplate_eed64e6926069ba805259ebfffdf52053e6d80732393c3b4597f2120f2d
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_024c4446b7751aa5c417f9eaec9b8be1cdeeb34d6126930f57ee94d2cf21036b = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_024c4446b7751aa5c417f9eaec9b8be1cdeeb34d6126930f57ee94d2cf21036b->enter($__internal_024c4446b7751aa5c417f9eaec9b8be1cdeeb34d6126930f57ee94d2cf21036b_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Swiftmailer/Collector/icon.svg"));
+        $__internal_1226f385db675d2bf5b763a8851e5f9e65325ced419a48c5041cd0fe610264dc = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_1226f385db675d2bf5b763a8851e5f9e65325ced419a48c5041cd0fe610264dc->enter($__internal_1226f385db675d2bf5b763a8851e5f9e65325ced419a48c5041cd0fe610264dc_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Swiftmailer/Collector/icon.svg"));
 
-        $__internal_8b946dccf9fc2e06c658720bbe9de32fec792a709b96c65d2f8b0cdf0e753978 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_8b946dccf9fc2e06c658720bbe9de32fec792a709b96c65d2f8b0cdf0e753978->enter($__internal_8b946dccf9fc2e06c658720bbe9de32fec792a709b96c65d2f8b0cdf0e753978_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Swiftmailer/Collector/icon.svg"));
+        $__internal_cfb49bf909be3a860c60367b90023fd79a4a0a3151ffdc2720abb87720b1452f = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_cfb49bf909be3a860c60367b90023fd79a4a0a3151ffdc2720abb87720b1452f->enter($__internal_cfb49bf909be3a860c60367b90023fd79a4a0a3151ffdc2720abb87720b1452f_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Swiftmailer/Collector/icon.svg"));
 
         // line 1
         echo "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" height=\"24\" viewBox=\"0 0 24 24\" enable-background=\"new 0 0 24 24\" xml:space=\"preserve\">
@@ -27,10 +27,10 @@ class __TwigTemplate_eed64e6926069ba805259ebfffdf52053e6d80732393c3b4597f2120f2d
 </svg>
 ";
         
-        $__internal_024c4446b7751aa5c417f9eaec9b8be1cdeeb34d6126930f57ee94d2cf21036b->leave($__internal_024c4446b7751aa5c417f9eaec9b8be1cdeeb34d6126930f57ee94d2cf21036b_prof);
+        $__internal_1226f385db675d2bf5b763a8851e5f9e65325ced419a48c5041cd0fe610264dc->leave($__internal_1226f385db675d2bf5b763a8851e5f9e65325ced419a48c5041cd0fe610264dc_prof);
 
         
-        $__internal_8b946dccf9fc2e06c658720bbe9de32fec792a709b96c65d2f8b0cdf0e753978->leave($__internal_8b946dccf9fc2e06c658720bbe9de32fec792a709b96c65d2f8b0cdf0e753978_prof);
+        $__internal_cfb49bf909be3a860c60367b90023fd79a4a0a3151ffdc2720abb87720b1452f->leave($__internal_cfb49bf909be3a860c60367b90023fd79a4a0a3151ffdc2720abb87720b1452f_prof);
 
     }
 
@@ -57,6 +57,6 @@ class __TwigTemplate_eed64e6926069ba805259ebfffdf52053e6d80732393c3b4597f2120f2d
         return new Twig_Source("<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" height=\"24\" viewBox=\"0 0 24 24\" enable-background=\"new 0 0 24 24\" xml:space=\"preserve\">
     <path fill=\"#AAAAAA\" d=\"M22,4.9C22,3.9,21.1,3,20.1,3H3.9C2.9,3,2,3.9,2,4.9v13.1C2,19.1,2.9,20,3.9,20h16.1c1.1,0,1.9-0.9,1.9-1.9V4.9z M8.3,14.1l-3.1,3.1c-0.2,0.2-0.5,0.3-0.7,0.3S4,17.4,3.8,17.2c-0.4-0.4-0.4-1,0-1.4l3.1-3.1c0.4-0.4,1-0.4,1.4,0S8.7,13.7,8.3,14.1z M20.4,17.2c-0.2,0.2-0.5,0.3-0.7,0.3s-0.5-0.1-0.7-0.3l-3.1-3.1c-0.4-0.4-0.4-1,0-1.4s1-0.4,1.4,0l3.1,3.1C20.8,16.2,20.8,16.8,20.4,17.2z M20.4,7.2l-7.6,7.6c-0.2,0.2-0.5,0.3-0.7,0.3s-0.5-0.1-0.7-0.3L3.8,7.2c-0.4-0.4-0.4-1,0-1.4s1-0.4,1.4,0l6.9,6.9L19,5.8c0.4-0.4,1-0.4,1.4,0S20.8,6.8,20.4,7.2z\"/>
 </svg>
-", "@Swiftmailer/Collector/icon.svg", "/Users/Rachid/Documents/Projet Client/ulimprime/vendor/symfony/swiftmailer-bundle/Resources/views/Collector/icon.svg");
+", "@Swiftmailer/Collector/icon.svg", "/Users/Rachid/SymfonyProjects/esagdiplome/vendor/symfony/swiftmailer-bundle/Resources/views/Collector/icon.svg");
     }
 }

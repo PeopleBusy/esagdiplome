@@ -55,8 +55,6 @@ class EtudiantController extends Controller
                     'demandes_etudiant' => $dem_repository->findEtudiantDemandes($repo_etudiant[0]->getId())));
             }
 
-            $etudiant->setGenre("M");
-
             //ORIGINAL
             $demande = new Demande();
             $demande->setDateEnregistrement(new DateTime());

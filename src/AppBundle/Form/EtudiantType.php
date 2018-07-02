@@ -25,6 +25,7 @@ class EtudiantType extends AbstractType
             ->add('lieunaissance',TextType::class, array('label' => 'Lieu de naissance:', 'required' => true, 'attr' => array('class' => 'form-control')))
             ->add('mention', TextType::class, array('label' => 'Matricule:', 'required' => true, 'attr' => array('class' => 'form-control')))
             ->add('optionEtud', TextType::class, array('label' => 'Option:', 'required' => true, 'attr' => array('class' => 'form-control')))
+            ->add('genre', TextType::class, array('label' => 'Titre du diplôme:', 'required' => true, 'attr' => array('class' => 'form-control', 'placeholder' => 'Ex: LICENCE PROFESSIONNELLE')))
             ->add('specialite', TextType::class, array('label' => 'Diplôme:', 'required' => true, 'attr' => array('class' => 'form-control')));
 
     }

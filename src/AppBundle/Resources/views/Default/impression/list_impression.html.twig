@@ -108,6 +108,7 @@
                                 <th>Lieu naiss.</th>
                                 <th>Diplôme</th>
                                 <th>Option</th>
+                                <th>Titre</th>
                                 <th>Type</th>
                                 <th>Enregistré par</th>
                                 <th>Date Enreg.</th>
@@ -126,6 +127,7 @@
                                     <td><span class="lieunaiss">{{ i.demande.etudiant.lieunaissance }}</span></td>
                                     <td><span class="diplome">{{ i.demande.etudiant.specialite }}</span></td>
                                     <td><span class="option">{{ i.demande.etudiant.optionEtud }}</span></td>
+                                    <td><span class="option">{{ i.demande.etudiant.genre }}</span></td>
                                     <td><span class="">{{ i.demande.typeDemande }}</span></td>
                                     <td><span class="">{{ i.demande.enregistrePar }}</span></td>
                                     <td><span class="">{{ i.demande.dateEnregistrement|date('d/m/Y h:i:s') }}</span></td>
